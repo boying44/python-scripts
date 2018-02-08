@@ -6,3 +6,7 @@ p = re.compile('ab*')
 p = re.compile(r'ab*')
 
 p.findall("string")
+
+p.match("string") # match returns None if not found
+# or
+re.match("string")
