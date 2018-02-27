@@ -15,6 +15,7 @@ input_text = "".join(sys.stdin)
 inputText = input("message") #prompts input
 
 #--------------
+#File IO
 file = open("file.txt", "r")
 file.readline()
 file.read() #whole file
