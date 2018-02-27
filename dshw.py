@@ -18,7 +18,7 @@ points = {
 
 #get inputs
 score = 0
-while score < 10:
+while score < 6:
     s = input("Enter feature: ")
 
     if s in age:
