@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
 from difflib import get_close_matches
+
+flag = os.environ.get("FLAG")
 
 other = set(["group ticket", "know age", "know cabin", "title", "fare class","deck","ethnicity",])
 family = set(["family size", "number of family members", "alone", "small family", "large family", "group"])
@@ -40,3 +43,5 @@ while score < 6:
     print("Family:", min(points["family"], 2))
     print("Total Score:", score)
     print("-----------")
+
+print(flag)
